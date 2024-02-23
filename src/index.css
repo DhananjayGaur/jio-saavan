@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+
+input[type="range"]{
+    -webkit-appearance: none;
+margin-bottom: 13px;    
+background-color: #e8e8e8ff;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #46c7b6ff;
+}
